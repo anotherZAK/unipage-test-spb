@@ -1,4 +1,4 @@
-export const URL = 'https://fish-text.ru/get?&number=1';
+export const URL = 'https://fish-text.ru/get?&number=4';
 export const INPUT_PATTERN = /[а-яё0-9- .,?!:;)("%№]/i;
 export const UPDATE_TIME = 1000;
 export const classList = {
