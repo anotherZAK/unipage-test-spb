@@ -1,14 +1,18 @@
+.text-block {
+  margin-bottom: 20px;
+}
+
 .symbol {
   font-size: 24px;
   color: rgb(95, 95, 95);
 }
 
 .symbol--passed {
-  color: hsl(120, 100%, 50%);
-  background-color: hsl(120, 40%, 40%);
+  color: black;
+  background-color: hsl(146, 100%, 66%);
 }
 
 .symbol--unpassed {
-  color: 	hsl(0, 100%, 50%);
-  background-color: hsl(0, 40%, 40%);
+  color: 	black;
+  background-color: hsl(0, 100%, 59%);
 }

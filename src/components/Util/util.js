@@ -1,6 +1,8 @@
-const OUTER_TEXT = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dui tortor, semper eu elit ut, sodales tristique turpis. Donec fermentum.';
-
-export const textBlock = {
-  text: OUTER_TEXT,
-  classNames: Array.from({length: OUTER_TEXT.length}, () => 'symbol')
+export const URL = 'https://fish-text.ru/get?&number=1';
+export const INPUT_PATTERN = /[а-яё0-9- .,?!:;)("%№]/i;
+export const UPDATE_TIME = 1000;
+export const classList = {
+  SYMBOL: "symbol",
+  SYMBOL_PASSED: "symbol symbol--passed",
+  SYMBOL_UNPASSED: "symbol symbol--unpassed",
 }

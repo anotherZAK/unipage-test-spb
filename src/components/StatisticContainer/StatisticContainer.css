@@ -1,0 +1,18 @@
+.statistic {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.statistic__accuracy {
+  min-width: 238px;
+}
+
+.statistic__accuracy,
+.statistic__speed,
+.statistic__time {
+  font-size: 20px;
+  margin-right: 20px;
+}

@@ -1,0 +1,27 @@
+.outer-container {
+  margin-top: 20px;
+}
+
+.outer-container--spinner {
+  margin: 0 auto;
+  margin-top: 200px;
+  width: fit-content;
+}
+
+h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.error-msg {
+  margin-top: 200px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+  background-color: tomato;
+}
+
+.btn-dark {
+  margin-right: 10px;
+}
+
