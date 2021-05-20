@@ -7,7 +7,7 @@ const StatisticContainer = ({data, printAccuracy, count, numberOfCorrectSymbols,
   const [time, setTime] = useState(0);
 
   useEffect(() => {
-    setTime(moment.utc(count * 1000).format("mm:ss"));
+    setTime(moment.utc(count * 1000).format("HH:mm:ss"));
   }, [count]);
 
   return (
@@ -24,7 +24,7 @@ const StatisticContainer = ({data, printAccuracy, count, numberOfCorrectSymbols,
       <div className="statistic__speed">
         Скорость печати: {count ? printSpeed : 0} символов/мин.
       </div>
-      <div className="statistic__time">Время печати: {count ? time : 0} с.</div>
+      <div className="statistic__time">Время печати: {count ? time : 0}.</div>
     </div>
   );
 };
